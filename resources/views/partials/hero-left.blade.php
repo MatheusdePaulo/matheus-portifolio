@@ -1,4 +1,4 @@
-<div class="w-[35%] h-screen flex flex-col justify-between py-12 px-14 relative overflow-hidden border-r border-purple-900/20">
+<div class="w-full h-full flex flex-col justify-between py-12 px-14 relative overflow-hidden border-r border-purple-900/20">
     <div class="absolute inset-0 bg-[#0b0b18]"></div>
     <div class="absolute inset-0 blob-anim" style="background: radial-gradient(ellipse 65% 55% at 10% 20%, rgba(108,55,255,0.22) 0%, transparent 65%), radial-gradient(ellipse 50% 40% at 90% 85%, rgba(80,30,200,0.18) 0%, transparent 60%);"></div>
     <div class="absolute inset-0" style="background-image: linear-gradient(rgba(100,70,220,0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(100,70,220,0.06) 1px, transparent 1px); background-size: 36px 36px;"></div>

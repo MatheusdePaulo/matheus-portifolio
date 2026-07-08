@@ -1,4 +1,4 @@
-<div class="w-[65%] h-screen bg-[#0f0f1e] relative overflow-hidden">
+<div class="w-full h-screen bg-[#0f0f1e] relative overflow-hidden">
 
     <div class="particle" style="width:6px;height:6px;top:15%;left:20%;--dur:6s;--delay:0s;"></div>
     <div class="particle" style="width:4px;height:4px;top:40%;left:70%;--dur:8s;--delay:1s;"></div>

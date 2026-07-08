@@ -16,4 +16,10 @@
             btnPt.classList.remove('text-white'); btnPt.classList.add('text-purple-400/50');
         }
     }
+    function updateCounter() {
+        const counter = document.getElementById('carousel-counter');
+        if (!counter) return;
+        const display = ((activeIndex % BASE_LEN) + 1).toString().padStart(2, '0');
+        counter.textContent = `${display} / ${String(BASE_LEN).padStart(2, '0')}`;
+    }
 </script>

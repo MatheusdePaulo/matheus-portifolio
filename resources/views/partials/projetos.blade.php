@@ -22,8 +22,8 @@
         </div>
     </div>
 
-    {{-- viewport --}}
-    <div id="carousel-viewport" style="overflow: hidden; position: relative;">
+    {{-- viewport: altura fixa em ACTIVE_H (ver script) para a seção não esticar durante a troca de card --}}
+    <div id="carousel-viewport" style="overflow: hidden; position: relative; height: 380px;">
         <div id="carousel-track" style="display: flex; gap: 20px; align-items: center; will-change: transform; transition: transform 0.5s cubic-bezier(0.4,0,0.2,1);"></div>
     </div>
 

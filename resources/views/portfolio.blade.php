@@ -21,6 +21,8 @@
     <div class="w-[65%]" style="background: #0f0f1e; overflow-y: auto; height: 100vh;">
         @include('partials.hero-right')
         @include('partials.projetos')
+        @include('partials.sobre')
+        @include('partials.habilidades')
     </div>
 
 </div>

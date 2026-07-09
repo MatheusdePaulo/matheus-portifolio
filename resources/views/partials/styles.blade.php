@@ -107,4 +107,9 @@
         0%, 100% { opacity: 0.6; }
         50%       { opacity: 1; }
     }
+
+    @keyframes walkSway {
+        0%, 100% { transform: rotate(-3deg) translateX(0px); }
+        50%       { transform: rotate(3deg) translateX(4px); }
+    }
 </style>

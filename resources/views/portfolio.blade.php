@@ -24,6 +24,7 @@
         @include('partials.sobre')
         @include('partials.habilidades')
         @include('partials.servicos')
+        @include('partials.contato')
     </div>
 
 </div>

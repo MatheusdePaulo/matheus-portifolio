@@ -117,4 +117,9 @@
         0%, 100% { transform: rotate(-3deg) translateX(0px); }
         50%       { transform: rotate(3deg) translateX(4px); }
     }
+
+    @keyframes spinLogo {
+        from { transform: rotate(0deg); }
+        to   { transform: rotate(360deg); }
+    }
 </style>

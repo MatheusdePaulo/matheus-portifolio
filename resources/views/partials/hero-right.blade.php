@@ -28,7 +28,7 @@
     </div>
 
     {{-- DEVELOPER fundo --}}
-    <img src="{{ asset('imagens/developer-reto.png') }}" alt="" class="absolute pointer-events-none select-none" style="top:48%; left:50%; transform:translate(-50%,-30%); width:80%; opacity:0.08; filter:invert(1) sepia(1) saturate(2) hue-rotate(220deg); animation:developerPulse 4s ease-in-out infinite;">
+    <img src="{{ asset('imagens/developer-reto.webp') }}" alt="" class="absolute pointer-events-none select-none" style="top:48%; left:50%; transform:translate(-50%,-30%); width:80%; opacity:0.08; filter:invert(1) sepia(1) saturate(2) hue-rotate(220deg); animation:developerPulse 4s ease-in-out infinite;">
 
     {{-- glow de fundo radial --}}
     <div class="absolute z-0" style="bottom:0; left:50%; transform:translateX(-50%); width:100%; height:100%; background:radial-gradient(ellipse 60% 70% at 55% 60%, rgba(100,40,220,0.35) 0%, rgba(60,20,160,0.15) 40%, transparent 70%); pointer-events:none;"></div>
@@ -41,7 +41,7 @@
 
     {{-- FOTO --}}
     <div class="absolute z-10 hero-photo-wrap" style="bottom:0; left:42%; transform:translateX(-50%);">
-        <img src="{{ asset('imagens/matheus-de-paulo.png') }}" alt="Matheus de Paulo" class="hero-photo block" style="height:100vh; max-height:880px; object-fit:contain; object-position:bottom; filter:brightness(0.8) contrast(1.05) drop-shadow(0 0 40px rgba(90,40,220,0.3)); mask-image:linear-gradient(to bottom, black 55%, transparent 100%); -webkit-mask-image:linear-gradient(to bottom, black 55%, transparent 100%);">
+        <img src="{{ asset('imagens/matheus-de-paulo.webp') }}" alt="Matheus de Paulo" class="hero-photo block" style="height:100vh; max-height:880px; object-fit:contain; object-position:bottom; filter:brightness(0.8) contrast(1.05) drop-shadow(0 0 40px rgba(90,40,220,0.3)); mask-image:linear-gradient(to bottom, black 55%, transparent 100%); -webkit-mask-image:linear-gradient(to bottom, black 55%, transparent 100%);">
     </div>
 
     {{-- CARD STATS --}}

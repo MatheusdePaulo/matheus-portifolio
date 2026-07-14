@@ -23,6 +23,7 @@
         @include('partials.projetos')
         @include('partials.sobre')
         @include('partials.habilidades')
+        @include('partials.servicos')
     </div>
 
 </div>

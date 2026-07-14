@@ -103,6 +103,11 @@
         50%       { opacity: 0.12; transform: translate(-50%, -30%) scale(1.02); }
     }
 
+    @keyframes sectionBgPulse {
+        0%, 100% { opacity: 0.06; transform: translate(-50%, -50%) scale(1); }
+        50%       { opacity: 0.12; transform: translate(-50%, -50%) scale(1.02); }
+    }
+
     @keyframes lightPulse {
         0%, 100% { opacity: 0.6; }
         50%       { opacity: 1; }

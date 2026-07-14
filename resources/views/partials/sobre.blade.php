@@ -1,8 +1,11 @@
-<section id="sobre" style="padding: 120px 32px 120px 48px; position: relative; background: #0f0f1e; border-top: 1px solid rgba(120,80,220,0.15); overflow: hidden;">
+<section id="sobre" style="padding: 120px 32px 120px 48px; position: relative; z-index: 0; background: #0f0f1e; border-top: 1px solid rgba(120,80,220,0.15); overflow: hidden;">
 
     {{-- fundo --}}
     <div style="position:absolute;inset:0;background:radial-gradient(ellipse 60% 50% at 20% 50%, rgba(108,55,255,0.08) 0%, transparent 70%);pointer-events:none;"></div>
     <div style="position:absolute;inset:0;" class="sobre-grid"></div>
+
+    {{-- ABOUT fundo --}}
+    <img src="{{ asset('imagens/abount.webp') }}" alt="" class="absolute pointer-events-none select-none" style="top:50%; left:50%; transform:translate(-50%,-50%); width:80%; opacity:0.06; filter:invert(1) sepia(1) saturate(2) hue-rotate(220deg); animation:sectionBgPulse 4s ease-in-out infinite; z-index:-1;">
 
     {{-- header centralizado --}}
     <div style="text-align:center;margin-bottom:72px;position:relative;z-index:1;">
@@ -28,13 +31,13 @@
 
             {{-- personagem CRIATIVIDADE — sobrepondo borda superior direita --}}
             <div style="position:absolute;top:-15px;right:-20px;z-index:6;animation:floatY 3s ease-in-out infinite;">
-                <img src="{{ asset('imagens/personagem-caneta.png') }}" alt="Criatividade"
+                <img src="{{ asset('imagens/personagem-caneta.webp') }}" alt="Criatividade"
                      style="width:110px;filter:drop-shadow(0 4px 12px rgba(0,0,0,0.5));">
             </div>
 
             {{-- personagem LÓGICA — sobrepondo borda inferior esquerda --}}
             <div style="position:absolute;bottom:-84px;left:-65px;z-index:6;">
-                <img src="{{ asset('imagens/personagem-pc.png') }}" alt="Lógica"
+                <img src="{{ asset('imagens/personagem-pc.webp') }}" alt="Lógica"
                      style="width:110px;filter:drop-shadow(0 4px 12px rgba(0,0,0,0.8));animation:walkSway 6.6s ease-in-out infinite;transform-origin:bottom center;">
             </div>
 
@@ -63,7 +66,7 @@
                     </div>
 
                     {{-- foto com fade na base --}}
-                    <img src="{{ asset('imagens/perfil-gordinho.png') }}" alt="Matheus de Paulo"
+                    <img src="{{ asset('imagens/perfil-gordinho.webp') }}" alt="Matheus de Paulo"
                          style="width:100%;height:420px;object-fit:cover;object-position:center 15%;display:block;position:relative;z-index:2;mask-image:linear-gradient(to bottom, black 55%, transparent 100%);-webkit-mask-image:linear-gradient(to bottom, black 55%, transparent 100%);">
 
                 </div>

@@ -1,4 +1,7 @@
-<section id="projetos" style="padding: 120px 0 120px 64px; position: relative; background: #0a0a12; border-top: 1px solid rgba(120,80,220,0.15); overflow: hidden;">
+<section id="projetos" style="padding: 120px 0 120px 64px; position: relative; z-index: 0; background: #0a0a12; border-top: 1px solid rgba(120,80,220,0.15); overflow: hidden;">
+
+    {{-- PROJECTS fundo --}}
+    <img src="{{ asset('imagens/projects.webp') }}" alt="" class="absolute pointer-events-none select-none" style="top:60%; left:50%; transform:translate(-50%,-50%); width:80%; opacity:0.06; filter:invert(1) sepia(1) saturate(2) hue-rotate(220deg); animation:sectionBgPulse 4s ease-in-out infinite; z-index:-1;">
 
     {{-- header --}}
     <div style="margin-bottom: 56px; padding-right: 64px; display: flex; align-items: flex-end; justify-content: space-between;">
@@ -29,11 +32,11 @@
 
     @php
         $projetos = [
-            ['titulo' => 'Nathan do Corte', 'cliente' => 'Barbearia', 'tags' => ['Laravel', 'Tailwind', 'Mercado Pago'], 'img' => 'imagens/padrao.jpg'],
-            ['titulo' => 'Dra. Camila Andrade', 'cliente' => 'Clínica Odontológica', 'tags' => ['Laravel', 'Blade', 'Tailwind'], 'img' => 'imagens/padrao.jpg'],
-            ['titulo' => 'Apple Reseller', 'cliente' => 'Demo Portfólio', 'tags' => ['Laravel', 'Tailwind', 'Alpine.js'], 'img' => 'imagens/padrao.jpg'],
-            ['titulo' => 'ENADE+', 'cliente' => 'Plataforma Educacional', 'tags' => ['Laravel', 'Python', 'Railway'], 'img' => 'imagens/padrao.jpg'],
-            ['titulo' => 'Matheusdepaulo.com', 'cliente' => 'Studio Digital', 'tags' => ['Laravel', 'Tailwind', 'Alpine.js'], 'img' => 'imagens/padrao.jpg'],
+            ['titulo' => 'Nathan do Corte', 'cliente' => 'Barbearia', 'tags' => ['Laravel', 'Tailwind', 'Mercado Pago'], 'img' => 'imagens/padrao.webp'],
+            ['titulo' => 'Dra. Camila Andrade', 'cliente' => 'Clínica Odontológica', 'tags' => ['Laravel', 'Blade', 'Tailwind'], 'img' => 'imagens/padrao.webp'],
+            ['titulo' => 'Apple Reseller', 'cliente' => 'Demo Portfólio', 'tags' => ['Laravel', 'Tailwind', 'Alpine.js'], 'img' => 'imagens/padrao.webp'],
+            ['titulo' => 'ENADE+', 'cliente' => 'Plataforma Educacional', 'tags' => ['Laravel', 'Python', 'Railway'], 'img' => 'imagens/padrao.webp'],
+            ['titulo' => 'Matheusdepaulo.com', 'cliente' => 'Studio Digital', 'tags' => ['Laravel', 'Tailwind', 'Alpine.js'], 'img' => 'imagens/padrao.webp'],
         ];
     @endphp
 
